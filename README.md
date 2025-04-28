@@ -56,6 +56,7 @@ titanic-survival-prediction/
 - Build a small web app using Streamlit
 
 **⭐ Credits**
+
 Kaggle Titanic Dataset
 
 Project guided by Ankit Tiwari
