@@ -1,14 +1,17 @@
-**Titanic Survival Prediction 🚢**
+# 🚢 Titanic Survival Prediction - Machine Learning Project
 
-A machine learning project that predicts survival of passengers on the Titanic disaster using supervised learning algorithms.
+## 📚 Project Description
+A machine learning project that predicts survival of passengers on the Titanic disaster using supervised learning algorithms. It covers data exploration, feature engineering, model building, and evaluation.
 
-**📚 Project Description**
-
+## 📌 Problem Statement
 This project uses the Titanic dataset to predict whether a passenger survived or not based on features like age, sex, ticket class, etc.
-It covers data exploration, feature engineering, model building, and evaluation.
 
-**📂 Project Structure**
+## 📊 Dataset
+- Source: Kaggle Titanic Dataset (https://www.kaggle.com/c/titanic)
+- Features: Pclass, Sex, Age, Fare, Embarked, etc.
+- Target: Survived (0 = No, 1 = Yes)
 
+## 📂 Project Structure
 titanic-survival-prediction/
 
 │
@@ -27,37 +30,35 @@ titanic-survival-prediction/
 
 └── requirements.txt (optional - list of Python libraries)
 
-**📊 Methods Used**
-
+## 📊 Methods Used
 - Exploratory Data Analysis (EDA)
-- Feature Engineering
+- Feature Engineering (Title extraction, encoding, etc.)
 - Data Cleaning
 - Machine Learning Modeling
-- Model Evaluation
+- Model Evaluation: accuracy, precision, recall, F1-score
 
-**🛠️ Technologies Used**
-
+## 🛠️ Technologies Used
 - Python (Pandas, NumPy)
 - Matplotlib, Seaborn (for visualizations)
 - Scikit-Learn (for ML algorithms)
 
-**🚀 How to Run**
-
+## 🚀 How to Run
 1. Clone this repository.
 2. Install requirements using:
   pip install -r requirements.txt
 3. Open the titanic_model.ipynb notebook.
 4. Run all cells to see the results.
 
-**📈 Future Work**
+## 📈 Results
+- **Final Accuracy**: `79.88%`
+- **Precision / Recall / F1-score**: Balanced performance across classes
 
-- Try advanced models like XGBoost, LightGBM
-- Hyperparameter tuning
+## 🛠️ Future Work
+- Try advanced ensemble models like Random Forest, LightGBM or XGBoost
+- Perform hyperparameter tuning
+- Use cross-validation for more reliable performance
 - Build a small web app using Streamlit
 
-**⭐ Credits**
-
-Kaggle Titanic Dataset
-
-Project guided by Ankit Tiwari
+## 🙌 Author
+Ankit Tiwari (https://github.com/ankitis32)
 
