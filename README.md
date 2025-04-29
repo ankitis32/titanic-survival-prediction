@@ -56,6 +56,8 @@ titanic-survival-prediction/
 | Random Forest | 83.79% |
 - **Precision / Recall / F1-score**: Balanced performance across classes
 
+The Random Forest model outperformed Logistic Regression by capturing complex patterns in the data. Its ensemble nature makes it more robust and suitable for production use in similar classification problems.
+
 ## 🛠️ Future Work
 - Try advanced ensemble models like LightGBM or XGBoost
 - Perform hyperparameter tuning
