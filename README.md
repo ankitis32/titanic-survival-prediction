@@ -50,11 +50,14 @@ titanic-survival-prediction/
 4. Run all cells to see the results.
 
 ## 📈 Results
-- **Final Accuracy**: `79.88%`
+| Model | Accuracy |
+|:------|:---------|
+| Logistic Regression | 79.88% |
+| Random Forest | 83.79% |
 - **Precision / Recall / F1-score**: Balanced performance across classes
 
 ## 🛠️ Future Work
-- Try advanced ensemble models like Random Forest, LightGBM or XGBoost
+- Try advanced ensemble models like LightGBM or XGBoost
 - Perform hyperparameter tuning
 - Use cross-validation for more reliable performance
 - Build a small web app using Streamlit
